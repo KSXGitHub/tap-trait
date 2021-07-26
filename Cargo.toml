@@ -1,0 +1,25 @@
+[package]
+name = "tap-trait"
+description = "Inspect and mutate values without leaving the method chain"
+version = "0.0.0"
+authors = ["khai96_ <hvksmr1996@gmail.com>"]
+edition = "2018"
+readme = "README.md"
+license = "MIT"
+documentation = "https://docs.rs/tap-trait"
+repository = "https://github.com/KSXGitHub/tap-trait.git"
+keywords = [
+  "tap",
+  "trait",
+  "chain",
+]
+categories = ["no-std", "rust-patterns"]
+include = [
+  "/src",
+  "/Cargo.toml",
+  "/README.md",
+  "/LICENSE.md",
+]
+
+[dev-dependencies]
+pipe-trait = "^0.3.2"
